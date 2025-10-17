@@ -149,4 +149,6 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 contentDescription = null,
                 contentScale = ContentScale.Fit
             )
+            Text(
+                text = "My Image",
 

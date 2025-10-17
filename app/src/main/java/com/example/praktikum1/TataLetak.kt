@@ -151,4 +151,15 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             )
             Text(
                 text = "My Image",
+                fontSize = 50.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier = Modifier.align(
+                    alignment = Alignment.Center
+                )
+            )
+        }
+    }
+}
 

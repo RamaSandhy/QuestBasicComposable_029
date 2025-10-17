@@ -139,9 +139,14 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
         Spacer(modifier = Modifier.height(height = 10.dp))
         Box(
             modifier = modifier
-                .height(500.dp) // Berdasarkan sumber [25]
+                .height(500.dp)
                 .fillMaxWidth()
                 .background(color = Color.Cyan),
             contentAlignment = Alignment.Center
         ) {
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit
+            )
 

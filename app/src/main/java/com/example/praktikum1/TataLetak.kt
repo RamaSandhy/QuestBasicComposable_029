@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun LatihanColumn(modifier: Modifier) {
+fun TataLetakColumn(modifier: Modifier) {
     Column(
         modifier = modifier.padding(top = 20.dp, start = 20.dp, end = 20.dp)
     ) {
@@ -36,7 +36,7 @@ fun LatihanColumn(modifier: Modifier) {
 }
 
 @Composable
-fun LatihanRow(modifier: Modifier) {
+fun TataLetakRow(modifier: Modifier) {
     Row(
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceEvenly
